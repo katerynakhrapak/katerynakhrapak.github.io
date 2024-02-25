@@ -17,6 +17,10 @@ background-color: white;
 background-color: white;
 }
 
+.image-container {
+  display: flex;
+}
+
 .smooch-sans {
   font-family: "Smooch Sans", sans-serif;
   font-optical-sizing: auto;
@@ -52,6 +56,23 @@ background-color: white;
   height: auto;
 }
 
+.uni-picture{
+  width: 423px;
+  height: 564px;
+  margin-right: 10px;
+}
+.bicycle{
+  width:500px;
+  height: auto;
+}
+.people-picture{
+  width: 1000px;
+  height: auto;
+}
+.peace-picture{
+  width: 600px;
+  height: auto;
+}
 
 b {
    font-weight: lighter;
@@ -114,7 +135,7 @@ footer {
   padding: 30px;
 }
 footer p {
-  color: black;
+  color: white;
   margin: 0;
 
 }
@@ -132,6 +153,7 @@ button {
 #container {
   width: 1000px;
   margin: 0 auto;
+  padding: 0;
 }
 .two-column {
   display: grid;
@@ -154,12 +176,62 @@ button {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   background-color: #D8F793;
-  padding-right: 100px;
-  padding: 100px;
+  padding-left: 100px;
+  padding: 0px;
+
 }
 
 .three-column div {
   background-color: #fff;
   margin-righ: 10px;
   margin-left: 10px;
+}
+
+.poem h3 {
+  font-family: "Smooch Sans", sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-top: -10px;
+
+}
+
+.horizontal-section {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 1265px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.text-container {
+  flex-grow: 1;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
