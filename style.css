@@ -38,7 +38,7 @@ background-color: white;
 .contact{
   font-family: "Smooch Sans", sans-serif;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-weight: lighter;
 }
 
@@ -72,6 +72,10 @@ background-color: white;
 .peace-picture{
   width: 600px;
   height: auto;
+}
+.event-picture{
+  width: 423px;
+  height: 290px;
 }
 
 b {
